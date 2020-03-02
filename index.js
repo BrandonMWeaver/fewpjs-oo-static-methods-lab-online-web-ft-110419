@@ -13,7 +13,7 @@ class Formatter {
     const preservedWords = ["the", "a", "an", "but", "of", "and", "for", "at", "by", "from"];
     titleizedStringArray.push(this.capitalize(stringArray[0]));
     for (let i = 1; i < stringArray.length; i++) {
-      if () {
+      if (preservedWords.include) {
         
       }
     }
