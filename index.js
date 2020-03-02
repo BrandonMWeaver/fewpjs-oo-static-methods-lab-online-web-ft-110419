@@ -11,9 +11,11 @@ class Formatter {
     const titleizedStringArray = [];
     const stringArray = string.split(' ');
     const preservedWords = ["the", "a", "an", "but", "of", "and", "for", "at", "by", "from"];
-    titleizedStringArray.push(capitalize(stringArray[0]));
+    titleizedStringArray.push(this.capitalize(stringArray[0]));
     for (let i = 1; i < stringArray.length; i++) {
-      if ()
+      if () {
+        
+      }
     }
   }
 }
