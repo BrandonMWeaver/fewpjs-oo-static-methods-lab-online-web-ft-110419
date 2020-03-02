@@ -8,6 +8,6 @@ class Formatter {
   }
   
   static titleize(string) {
-    const preservedWords
+    const preservedWords = ["the", "a", "an", "but", "of", "and", "for", "at", "by", "from"];
   }
 }
